@@ -1,0 +1,164 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Roboto, 'Helvetica Neue';
+}
+.top {
+  background: rgb(102, 108, 138);
+  height: 500px;
+  /* text-align: center; */
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Navigation */
+nav {
+  display: flex;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+}
+
+nav ul li {
+  padding: 10px;
+  text-transform: uppercase;
+}
+
+.logo {
+  position: relative;
+  top: -6%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.dontate-btn {
+  background: white;
+  color: rgb(102, 108, 138);
+  font-weight: bold;
+  text-transform: uppercase;
+  position: relative;
+  top: -40px;
+  float: right;
+  margin-right: 30px;
+  padding: 7px 8px;
+  border-radius: 3px;
+}
+
+/* Top Section */
+.top h1 {
+  font-size: 3em;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.top p {
+  color: white;
+  font-size: 1.2em;
+  width: 25%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.top span {
+  width: 100%;
+  color: white;
+  padding-top: 40px;
+  text-align: center;
+  float: right;
+  height: auto;
+}
+/* Middle section */
+.why {
+  text-align: center;
+  width: 50%;
+  padding-top: 80px;
+  margin: 0 auto;
+  padding-bottom: 80px;
+}
+
+.why h2 {
+  text-transform: uppercase;
+}
+
+/* About Section */
+.about h3 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.about {
+  background: rgb(219, 223, 226);
+  height: 700px;
+}
+.about-img {
+  width: 300px;
+  height: 170px;
+}
+
+.about-us {
+  height: 500px;
+  justify-content: center;
+  display: flex;
+  width: 25%;
+  margin: auto;
+  padding-top: 80px;
+}
+
+.visit {
+  margin-right: 60px;
+}
+
+.visit-you {
+  margin-left: 60px;
+}
+
+.about a {
+  text-transform: uppercase;
+  color: rgb(102, 108, 138);
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  padding: 15px 32px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* Volunteer Section */
+.volunteer {
+  padding-top: 30px;
+  text-align: center;
+  width: 40%;
+  margin: 0 auto;
+}
+
+.volunteer h2 {
+  text-transform: uppercase;
+}
+
+.volunteer a {
+  text-transform: uppercase;
+  color: rgb(102, 108, 138);
+  border: 1px solid grey;
+
+  width: 50%;
+  padding: 15px 32px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.volunteer p {
+  margin-bottom: 50px;
+  padding-top: 50px;
+}
